@@ -13,13 +13,9 @@ import com.google.firebase.ktx.Firebase
 class DashboardFragment :
         BaseFragment<DashboardFragmentLayoutBinding>(R.layout.dashboard_fragment_layout)
 {
-    private var auth: FirebaseAuth? = null
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?)
     {
         super.onViewCreated(view, savedInstanceState)
-        binding = DashboardFragmentLayoutBinding.bind(view)
-        auth = Firebase.auth
 
         with(binding!!) {
             userEmailLabel.text =
