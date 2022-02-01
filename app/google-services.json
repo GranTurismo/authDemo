@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1032273411049",
+    "project_id": "authdemo-f1915",
+    "storage_bucket": "authdemo-f1915.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032273411049:android:c43b3d04414909bf48a978",
+        "android_client_info": {
+          "package_name": "com.example.authdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032273411049-bt02l3m538bvqics932kpomkohggbu7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBClg-drlhi1o4f5xRITTIeou0r6Cyard8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032273411049-bt02l3m538bvqics932kpomkohggbu7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

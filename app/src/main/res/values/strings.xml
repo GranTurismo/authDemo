@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">authDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="emailLabel">Email: </string>
+    <string name="passwordLabel">Password: </string>
+    <string name="loginLabel">Login</string>
+    <string name="registerLabel">Register</string>
+    <string name="short_data">Password or Email is too short</string>
+    <string name="incorrect_credentials">Email or Password is not correct</string>
+    <string name="reg_complete">Registration completed!!!</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="log_out">Log Out</string>
+    <string name="reg_failed">Registration Failed</string>
+</resources>
