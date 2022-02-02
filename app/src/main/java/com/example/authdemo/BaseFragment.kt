@@ -3,6 +3,7 @@ package com.example.authdemo
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -21,4 +22,9 @@ abstract class BaseFragment<T>(resource:Int) : Fragment(resource)
         binding = getFragmentBinding(view)
         auth = Firebase.auth
     }
+
+    protected fun showToast(text: String) =
+            Toast.makeText(view!!.context, text, Toast.LENGTH_LONG).show()
+
+    protected fun showToast(text: Int) = showToast(getString(text))
 }

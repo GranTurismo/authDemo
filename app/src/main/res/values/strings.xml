@@ -12,4 +12,6 @@
     <string name="dashboard_title">Dashboard</string>
     <string name="log_out">Log Out</string>
     <string name="reg_failed">Registration Failed</string>
+    <string name="username">Username: </string>
+    <string name="invalid_form">Invalid Form</string>
 </resources>

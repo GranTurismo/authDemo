@@ -43,24 +43,13 @@ class LoginFragment : BaseFragment<FragmentLoginPageBinding>(R.layout.fragment_l
                     showToast(R.string.short_data)
             }
             register.setOnClickListener {
-                auth.createUserWithEmailAndPassword(
-                        emailField.text.toString(),
-                        passwordField.text.toString()
-                )
-                        .addOnCompleteListener {
-                            if (it.isSuccessful)
-                                showToast(R.string.reg_complete)
-                            else
-                                showToast(R.string.reg_failed)
-                        }
+                parentFragmentManager.commit {
+                    replace((binding!!.root.parent as View).id,RegisterFragment())
+                    setReorderingAllowed(true)
+                }
             }
         }
     }
-
-    private fun showToast(text: String) =
-            Toast.makeText(view!!.context, text, Toast.LENGTH_LONG).show()
-
-    private fun showToast(text: Int) = showToast(getString(text))
 
     private fun navigateToDashboard()
     {
